@@ -36,6 +36,9 @@ public class MobCommand implements CommandExecutor {
 		Inventory inv = Bukkit.createInventory(null, 36, ChatColor.GREEN + "Mob");
 		
 		player.openInventory(inv);
+		
+		ticks = 0;
+		
 		new BukkitRunnable() {
 			
 			@Override
