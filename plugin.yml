@@ -1,0 +1,7 @@
+name: MobCustomGUI
+version: 1.0
+author: RoroGotWork
+main: fr.rorocraft.mob.MobCustomGUI
+api-version: 1.16
+commands:
+  mob:
